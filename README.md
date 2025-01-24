@@ -1,3 +1,6 @@
+# dd_img
+Like Clonezilla, takes and restores a partition or hard disk backup. All code easy to see.
+
 Remember to:
 a). shrink a bit the target partition, before geeting its image, in order to be sure it will fit back when restoring it.
 b. If restoring onto a partition of a different type than the backup, then need to use Linux's `fdisk' to set the "partition type" ("t" command).
