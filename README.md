@@ -1,6 +1,6 @@
 Remember to:
 a). shrink a bit the target partition, before geeting its image, in order to be sure it will fit back when restoring it.
-b). If restoring onto a partition of a different type than the backup, then need to use Linux's `fdisk' to set the "partition type" ("t" command).
+b. If restoring onto a partition of a different type than the backup, then need to use Linux's `fdisk' to set the "partition type" ("t" command).
 
 WARNING: When running this Bash script, one should be in a directory on an ext4 partition (ntfs might also work - not sure, but Samba share (== cifs) and FAT32 are known not to work). This is because the filesystem of the partition where we are in, needs to support "named pipes". This should be no problem, as the filenames can be referred with full path. (One more warning: should make sure that the full path used, contains no spaces.)
 
