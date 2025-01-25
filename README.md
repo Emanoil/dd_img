@@ -5,7 +5,7 @@ Like Clonezilla, takes and restores a partition or hard disk backup. All code ea
 <p style="font-size:18px;">This program can destroy data on your computer, if misused (i.e. wrong commands).</p>
 So, please do not use if you don't understand well the commands that it takes. I take no responsibility for any data loss on your computer.
 
-Here is the **big picture**: this is a Linux program, so it can only be used in a Linux terminal, with "root" privileges. You can save (operation "*read*") an image of a partition (e.g. "/dev/sda20") or even a hole hard disk (e.g. "dev/sdb"). Will be saved with many checksums. Can be restored (operation "*write*") on same or other computer. Can also be just verified (that checksums are OK; operation '*verify*). Restoration (operation "*write*") is the dangerous part, so please, carefully check the displayed paramaters, an only type "yes" if you are sure the parameters are OK.
+Here is the **big picture**: this is a Linux program, so it can only be used in a Linux terminal, with "*root*" privileges. You can save (operation "*read*") an image of a partition (e.g. "*/dev/sda20*") or even a whole hard disk (e.g. "*dev/sdb*"). Will be saved with many checksums. Can be restored (operation "*write*") on same or other computer. Can also be just verified (that checksums are OK; operation "*verify*"). Restoration (operation "*write*") is the dangerous part, so please, carefully check the displayed paramaters, an only type "yes" if you are sure the parameters are OK. (Note: for a test, can use an ordinary file (e.g. "*tests/a_test_file*"), instead of a device (e.g. "*/dev/sdb30*"). This is safe.)
 
 Remember to:
 a). shrink a bit the target partition, before geeting its image, in order to be sure it will fit back when restoring it.
