@@ -1,6 +1,6 @@
 ![Profile views](https://komarev.com/ghpvc/?username=Emanoil&repo=dd_img)
 # dd_img
-Like Clonezilla, takes and restores a partition or hard disk backup. All code easy to see.
+Like Clonezilla, takes and restores a partition or hard disk backup. All code easy to see. Can use on any Linux with *root*.
 
 <h1>Importat warning</h1>
 <p style="font-size:18px;">This program can destroy data on your computer, if misused (i.e. wrong commands).</p>
