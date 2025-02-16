@@ -2,9 +2,9 @@
 # dd_img
 Like Clonezilla, takes and restores a partition or hard disk backup. All code easy to see. Unlike Clonezilla, can use on any Linux with *root* (e.g. Raspberry Pi).
 
-<h1>Important warning</h1>
-<p style="font-size:18px;">This program can destroy data on your computer, if misused (i.e. wrong commands).</p>
-So, please do not use if you don't understand well the commands that it takes. I take no responsibility for any data loss on your computer.<br><br>
+<h2>Important warning</h2>
+<p style="font-size:18px;">This program can destroy data on your computer, if misused (i.e. wrong commands).
+So, please do not use if you don't understand well the commands that it takes. I take no responsibility for any data loss on your computer.<br><br></p>
 
 Here is the **big picture**: this is a Linux program, so it can only be used in a Linux terminal, with "*root*" privileges. You can save (operation "*read*") an image of a partition (e.g. "*/dev/sda20*") or even a whole hard disk (e.g. "*dev/sdb*"). Will be saved with many checksums. Can be restored (operation "*write*") on same or other computer. Can also be just verified (that checksums are OK; operation "*verify*"). Restoration (operation "*write*") is the dangerous part, so please, carefully check the displayed paramaters, and only type "yes" if you are sure the parameters are OK. (Note: for a test, can use an ordinary file (e.g. "*tests/a_test_file*"), instead of a device (e.g. "*/dev/sdb30*"). This is safe.)  
 
