@@ -1,6 +1,6 @@
 ![Profile views](https://komarev.com/ghpvc/?username=Emanoil&repo=dd_img)
 # dd_img
-Like Clonezilla, takes and restores a partition or hard disk backup. All code easy to see. Unlike Clonezilla, can use on any Linux with *root* (e.g. Raspberry Pi).
+Like Clonezilla, takes and restores a partition or hard disk backup. Unlike Clonezilla, can use on any Linux with *root* (e.g. Raspberry Pi). All code easy to see.
 
 <h2>Important warning</h2>
 <p style="font-size:18px;">This program can destroy data on your computer, if misused (i.e. wrong commands).
